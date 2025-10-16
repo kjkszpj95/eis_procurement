@@ -18,7 +18,7 @@
 - PHP 7.4+ (рекомендуется)
 - Composer
 - Расширения: `mbstring`, `dom`, `libxml`
-- Пакет: `shuchkin/simplexlsx` (для чтения XLSX без `ext-zip`)
+- Пакет: `shuchkin/simplexlsx`
 
 ---
 
