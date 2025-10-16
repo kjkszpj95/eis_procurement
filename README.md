@@ -28,3 +28,18 @@
    ```bash
    git clone https://github.com/ваш-логин/eis_procurement.git
    cd eis_procurement
+2. Установите зависимости:
+   ```bash
+   composer install
+3.Настройте подключение к БД в config/db.php.
+4.Примените миграции:
+   ```bash
+   php yii migrate.
+▶️ Использование
+Скачать и сохранить данные в БД
+   ```bash
+   php yii parse/save-data
+
+
+   
+   
