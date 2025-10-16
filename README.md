@@ -31,9 +31,10 @@
 2. Установите зависимости и применение миграции:
    ```bash
    composer install
-   php yii migrate.
+   php yii migrate
 3.Настройте подключение к БД в config/db.php.
 ##  ▶️ Использование
+   php yii parse/save-data
 Команда автоматически: 
    находит документ,
    парсит XLSX,
