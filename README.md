@@ -35,15 +35,15 @@
 3.Настройте подключение к БД в config/db.php.
 ##  ▶️ Использование
    php yii parse/save-data
-Команда автоматически: 
-   находит документ,
-   парсит XLSX,
-   преобразует даты,
-   сохраняет записи в таблицу legal_entities в одной транзакции.
+- Команда автоматически: 
+   - находит документ,
+   - парсит XLSX,
+   - преобразует даты,
+   - сохраняет записи в таблицу legal_entities в одной транзакции.
 ##  ▶️ Структура проекта 
--commands\ParseController.php Основная логика получения данных
--models\LegalEntity.php Модель данных
--migrations\m250417_120000_create_legal_entities_table.php Миграции
+- commands\ParseController.php Основная логика получения данных
+- models\LegalEntity.php Модель данных
+- migrations\m250417_120000_create_legal_entities_table.php Миграции
 
 
 
